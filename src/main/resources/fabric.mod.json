@@ -14,7 +14,7 @@
   },
   "license": "MIT License",
   "icon": "assets/sorted-enchants/icon.png",
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
     "main": [
       {
