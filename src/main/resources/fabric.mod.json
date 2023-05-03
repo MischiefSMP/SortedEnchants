@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "sorted-enchants",
+  "version": "${version}",
+  "name": "Sorted Enchants",
+  "description": "Sorts Enchantments in Tooltips",
+  "authors": [
+    "Sven Wollinger"
+  ],
+  "contact": {
+    "homepage": "https://github.com/MischiefSMP/",
+    "issues": "https://github.com/MischiefSMP/SortedEnchants/issues",
+    "sources": "https://github.com/MischiefSMP/SortedEnchants"
+  },
+  "license": "MIT License",
+  "icon": "assets/sorted-enchants/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "com.mischiefsmp.sortedenchants.Mod"
+      }
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${fabricloader}",
+    "fabric-api": ">=${fabric_api}",
+    "fabric-language-kotlin": ">=${fabric_language_kotlin}",
+    "minecraft": ">=${minecraft}",
+    "java": ">=${java}"
+  }
+}
